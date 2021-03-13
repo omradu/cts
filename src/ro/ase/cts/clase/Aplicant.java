@@ -1,5 +1,6 @@
 package ro.ase.cts.clase;
 
+
 public abstract class Aplicant{
 	protected String nume;
 	protected String prenume;

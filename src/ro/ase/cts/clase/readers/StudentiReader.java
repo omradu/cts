@@ -33,6 +33,7 @@ public class StudentiReader extends Readable {
 			student.setFacultate(facultate);
 			studenti.add(student);
 		}
+		
 		input.close();
 		return studenti;
 	}

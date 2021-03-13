@@ -33,6 +33,7 @@ public class AngajatiReader extends Readable {
 			angajat.setOcupatie(ocupatie);
 			
 			angajati.add(angajat);
+			
 		}
 		input2.close();
 		return angajati;
