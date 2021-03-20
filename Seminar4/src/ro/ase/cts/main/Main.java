@@ -1,5 +1,6 @@
 package ro.ase.cts.main;
 
+import ro.ase.cts.clase.Metrou;
 import ro.ase.cts.clase.Parlament;
 import ro.ase.cts.clase.ParlamentLazy;
 
@@ -25,6 +26,13 @@ public class Main {
 		
 		System.out.println(parlamentLazy1.toString());
 		System.out.println(parlamentLazy2.toString());
+		System.out.println("-----------------------");
+		
+		Metrou metrou1 = Metrou.getInstance("Metrorex", 176, 2.5);
+		Metrou metrou2 = Metrou.getInstance("Metro", 100, 2);
+		
+		System.out.println(metrou1.toString());
+		System.out.println(metrou2.toString());
 		System.out.println("-----------------------");
 	}
 
