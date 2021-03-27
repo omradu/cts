@@ -3,7 +3,7 @@ package ro.ase.cts.main;
 import java.util.ArrayList;
 import java.util.List;
 
-import ro.ase.cts.clase.Reteta;
+import ro.ase.cts.prototype.Reteta;
 
 public class Main {
 
