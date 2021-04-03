@@ -1,15 +1,15 @@
-package ro.ase.cts.clase;
+package ro.ase.cts.factory.clase;
 
-public class Fundas extends Jucator {
+public class Portar extends Jucator {
 
-	public Fundas(String nume, int nrTricou) {
+	public Portar(String nume, int nrTricou) {
 		super(nume, nrTricou);
 	}
 
 	@Override
 	public String toString() {
 		StringBuilder builder = new StringBuilder();
-		builder.append("Fundas [getNume()=");
+		builder.append("Portar [getNume()=");
 		builder.append(getNume());
 		builder.append(", getNrTricou()=");
 		builder.append(getNrTricou());

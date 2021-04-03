@@ -1,7 +1,7 @@
 package ro.ase.cts.factory;
 
-import ro.ase.cts.clase.Fundas;
-import ro.ase.cts.clase.Jucator;
+import ro.ase.cts.factory.clase.Fundas;
+import ro.ase.cts.factory.clase.Jucator;
 
 public class FabricaFundas implements FabricaJucator{
 

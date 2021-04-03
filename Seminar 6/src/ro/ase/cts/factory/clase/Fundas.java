@@ -1,15 +1,15 @@
-package ro.ase.cts.clase;
+package ro.ase.cts.factory.clase;
 
-public class Atacant extends Jucator{
+public class Fundas extends Jucator {
 
-	public Atacant(String nume, int nrTricou) {
+	public Fundas(String nume, int nrTricou) {
 		super(nume, nrTricou);
 	}
 
 	@Override
 	public String toString() {
 		StringBuilder builder = new StringBuilder();
-		builder.append("Atacant [getNume()=");
+		builder.append("Fundas [getNume()=");
 		builder.append(getNume());
 		builder.append(", getNrTricou()=");
 		builder.append(getNrTricou());
@@ -22,5 +22,6 @@ public class Atacant extends Jucator{
 		builder.append("]");
 		return builder.toString();
 	}
+	
 	
 }

@@ -1,7 +1,7 @@
 package ro.ase.cts.factory;
 
-import ro.ase.cts.clase.Jucator;
-import ro.ase.cts.clase.Portar;
+import ro.ase.cts.factory.clase.Jucator;
+import ro.ase.cts.factory.clase.Portar;
 
 public class FabricaPortar implements FabricaJucator {
 
