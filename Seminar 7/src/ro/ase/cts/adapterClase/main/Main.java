@@ -1,7 +1,7 @@
 package ro.ase.cts.adapterClase.main;
 
 import ro.ase.cts.adapterClase.clase.AdapterLeasingClase;
-import ro.ase.cts.adapterObiecte.clase.Creditable;
+import ro.ase.cts.adapterClase.clase.Creditable;
 
 public class Main {
 	
