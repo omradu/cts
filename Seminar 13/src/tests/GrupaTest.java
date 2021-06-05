@@ -3,12 +3,17 @@ package tests;
 import static org.junit.Assert.*;
 
 import org.junit.Test;
+import org.junit.experimental.categories.Category;
 
+
+import categories.TesteRight;
+import categories.TesteUrgente;
 import clase.Grupa;
 
 public class GrupaTest {
 
 	@Test
+	@Category(TesteRight.class)
 	public void testConstructorRight() {
 		Grupa grupa = new Grupa(1086);
 		assertEquals(1086, grupa.getNrGrupa());
@@ -21,6 +26,7 @@ public class GrupaTest {
 	}
 
 	@Test
+	@Category(TesteUrgente.class)
 	public void testConstructorLimitaSuperioara() {
 		Grupa grupa = new Grupa(1100);
 		assertEquals(1100, grupa.getNrGrupa());
