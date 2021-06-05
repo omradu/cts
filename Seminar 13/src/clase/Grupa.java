@@ -23,7 +23,10 @@ public class Grupa {
     }
 
     public void adaugaStudent(IStudent student){
-        studenti.add(student);
+        if(studenti.size() == 35) {
+        	throw new IllegalArgumentException();
+        }
+    	studenti.add(student);
     }
 
     public List<IStudent> getStudenti() {
